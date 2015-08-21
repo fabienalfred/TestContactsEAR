@@ -1,0 +1,44 @@
+!SESSION 2015-08-21 23:19:31.944 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data /home/fabien/workspace/workspace_DL/TestContactsEAR -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.tools.foundation.checkup 2 0 2015-08-21 23:19:51.119
+!MESSAGE /home/fabien/workspace/workspace_DL/TestContactsEAR/.metadata/.log (Aucun fichier ou dossier de ce type)
+!STACK 0
+java.io.FileNotFoundException: /home/fabien/workspace/workspace_DL/TestContactsEAR/.metadata/.log (Aucun fichier ou dossier de ce type)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at org.eclipse.ui.internal.views.log.TailInputStream.<init>(TailInputStream.java:24)
+	at org.jboss.tools.foundation.checkup.JVMProblemDetector.earlyStartup(JVMProblemDetector.java:108)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:90)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:68)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2812)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 2 0 2015-08-21 23:19:51.252
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.google.gdt.eclipse.designer' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2015-08-21 23:19:52.668
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.google.gdt.eclipse.designer.UiBinder' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2015-08-21 23:20:07.748
+!MESSAGE Registering: com.google.appengine.eclipse.sdkbundle_1.9.25
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2015-08-21 23:20:10.365
+!MESSAGE Registering: com.google.gwt.eclipse.sdkbundle_2.6.0
+
+!ENTRY org.eclipse.ui 2 2 2015-08-21 23:21:06.146
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2015-08-21 23:21:06.172
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)

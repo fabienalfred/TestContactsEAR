@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+/home/fabien/workspace/workspace_DL/TestContactsEAR/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+539797656.index
+333098485.index
+1435122307.index
+2612508904.index
+3776417842.index
+4065533948.index
